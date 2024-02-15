@@ -1,13 +1,11 @@
 Isme nahi pta function firstChar(text) {
   // your code here
-    for (let i = 0; i < text.length; i++) {
-        const char = text.charAt(i);
-        if (char !== ' ') {
-            return char;
-        }
-    }
-    return ''; 
-
+    for (let char of str) {
+		if (char !== ' ') {
+			return char;
+		}
+	}
+	return '';
 }
 
 // Do not change the code below
