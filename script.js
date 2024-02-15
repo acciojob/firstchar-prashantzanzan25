@@ -1,17 +1,13 @@
-function firstChar(text) {
+Isme nahi pta function firstChar(text) {
   // your code here
-	if (s.length === 0) {
-        return '';
-    }
-
-    for (let i = 0; i < s.length; i++) {
-        if (s[i] !== ' ') {
-            return s[i];
+    for (let i = 0; i < text.length; i++) {
+        const char = text.charAt(i);
+        if (char !== ' ') {
+            return char;
         }
     }
+    return ''; 
 
-    return '';
-	
 }
 
 // Do not change the code below
